@@ -1,3 +1,4 @@
 USE alx_book_store;
 
-SHOW COLUMNS FROM books
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = 'books';
